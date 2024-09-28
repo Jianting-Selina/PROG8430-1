@@ -34,11 +34,11 @@ class ExcelDataFrameStyler:
         styled_df = self.style_dataframe()
         return styled_df
 
-def main():
-    file_path = 'News_release_chart_data_August_2024.xlsx'
-    styler = ExcelDataFrameStyler(file_path)
-    styled_df = styler.display_styled_dataframe()
+# def main():
+#     file_path = 'News_release_chart_data_August_2024.xlsx'
+#     styler = ExcelDataFrameStyler(file_path)
+#     styled_df = styler.display_styled_dataframe()
     
-    # Display the styled DataFrame in Jupyter
-    return styled_df
+#     # Display the styled DataFrame in Jupyter
+#     return styled_df
 
